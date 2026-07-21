@@ -1,7 +1,7 @@
 # Handwritten Digit Recognition using CNN
 
 <p align="center">
-  <img src="images/cover.png" alt="Project Cover" width="100%">
+  <img src="images/cover.png" alt="Project Cover" width="600">
 </p>
 
 A Convolutional Neural Network (CNN) built using **TensorFlow** and **Keras** to classify handwritten digits from the **MNIST** dataset.
@@ -52,42 +52,25 @@ Dataset: **MNIST**
 
 ---
 
-# Model Architecture
+## 🏗️ Model Architecture
 
 ```text
 Input (28×28×1)
-
-↓
-
-Conv2D (32) + ReLU
-
-↓
-
-MaxPooling2D
-
-↓
-
-Conv2D (64) + ReLU
-
-↓
-
-MaxPooling2D
-
-↓
-
-Flatten
-
-↓
-
-Dense (128) + ReLU
-
-↓
-
+      │
+      ▼
+Conv2D (32) + ReLU → MaxPool (2×2)
+      │
+      ▼
+Conv2D (64) + ReLU → MaxPool (2×2)
+      │
+      ▼
+Flatten → Dense (128) + ReLU
+      │
+      ▼
 Dropout (0.2)
-
-↓
-
-Dense (10) + Softmax
+      │
+      ▼
+Output Layer (10 Classes, Softmax)
 ```
 
 ---
