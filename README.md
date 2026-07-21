@@ -1,7 +1,7 @@
 # Handwritten Digit Recognition using CNN
 
 <p align="center">
-  <img src="images/cover.png" alt="Project Cover" width="600">
+  <img src="images/cover.png" alt="Project Cover" width="700">
 </p>
 
 A Convolutional Neural Network (CNN) built using **TensorFlow** and **Keras** to classify handwritten digits from the **MNIST** dataset.
