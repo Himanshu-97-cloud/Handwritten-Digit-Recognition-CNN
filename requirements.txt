@@ -1,0 +1,8 @@
+tensorflow
+keras
+numpy
+matplotlib
+seaborn
+streamlit>=1.53
+streamlit-drawable-canvas[image]
+pillow
