@@ -6,3 +6,11 @@ seaborn
 streamlit>=1.53
 streamlit-drawable-canvas[image]
 pillow
+
+streamlit
+tensorflow==2.16.1
+keras==3.3.3
+numpy
+pillow
+opencv-python-headless
+streamlit-drawable-canvas
