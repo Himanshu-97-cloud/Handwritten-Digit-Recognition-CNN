@@ -1,8 +1,8 @@
 
-streamlit>=1.53
+streamlit
 tensorflow==2.18.0
-numpy
+numpy<2.1
+pillow
+streamlit-drawable-canvas
 matplotlib
 seaborn
-pillow
-streamlit-drawable-canvas[image]
