@@ -6,7 +6,7 @@ A deep learning project that recognizes handwritten digits (0-9) using a Convolu
 
 Try the application here:
 
-👉 https://handwritten-digit-recognition-cnn-j4oulnydcvg7kmmaenmxlm.streamlit.app
+👉 [https://handwritten-digit-recognition-cnn-j4oulnydcvg7kmmaenmxlm.streamlit.app](https://handwritten-digit-recognition-cnn-bk5p2ibyfyixah76ednqta.streamlit.app/)
 
 ## Features
 
